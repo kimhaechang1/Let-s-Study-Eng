@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAlignment="center"
+        android:fontFamily="@font/inconsolatabold"
+        android:id="@+id/word"
+        android:textSize="10pt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textAlignment="center"
+        android:fontFamily="@font/gowunbatangregular"
+        android:id="@+id/word2"
+        android:textSize="9pt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

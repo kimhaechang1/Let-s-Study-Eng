@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/gowunbatangregular"
+        android:id="@+id/addEng"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="영단어 목록 보기">
+    </Button>
+    <Button
+        android:fontFamily="@font/gowunbatangregular"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/startQuiz"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="오늘의 퀴즈 시작하기">
+    </Button>
+    <Button
+        android:fontFamily="@font/gowunbatangregular"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/mainMenu"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="처음으로">
+    </Button>
+
+
+</LinearLayout>
